@@ -90,7 +90,7 @@ img {
     outfit
 -------------------*/
 .container-card{
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .outfit {
@@ -140,4 +140,13 @@ img {
 }
 .outfit:hover .outfit-image-default {
     display: none;
+}
+
+.info-card h3{
+    font-size: 15px;
+}
+
+.info-card p{
+    display: inline-block;
+    color: red;
 }
