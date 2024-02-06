@@ -93,6 +93,10 @@ img {
     padding-top: 40px;
 }
 
+.second-card{
+    padding-bottom: 40px;
+}
+
 .outfit {
     position: relative;
 }
@@ -149,4 +153,18 @@ img {
 .info-card p{
     display: inline-block;
     color: red;
+}
+
+/*footer*/
+footer{
+    background-color: black;
+    color: #ffffff;
+}
+
+.info-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 50px;
+    margin: 0 50px;
 }
