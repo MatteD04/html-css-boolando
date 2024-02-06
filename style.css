@@ -1,6 +1,4 @@
-/*-------------------
-    RESET
--------------------*/
+/*reset*/
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +9,7 @@ img {
     max-width: 100%;
 }
 
-/*-------------------
-    GRID LAYOUT
--------------------*/
+/*grid layout*/
 .container{
     max-width: 900px;
     margin: 0 auto;
@@ -52,7 +48,7 @@ img {
     flex-grow: 1;
 }
 
-/*HEADER*/
+/*header*/
 .header-top{
     background-color: #ff7b00;
 }
@@ -86,9 +82,7 @@ img {
     color: #ffffff;
 }
 
-/*-------------------
-    outfit
--------------------*/
+/*outfit*/
 .container-card{
     padding-top: 40px;
 }
@@ -124,11 +118,16 @@ img {
 .outfit .info{
     position: absolute;
     bottom: 30px;
+    left: 35px;
     width:auto;
     background-color: green;
     color: #ffffff;
     padding: 3px 5px;
     font-size: 10px;
+}
+
+.outfit .last-info{
+    left: 0;
 }
 
 .outfit:hover .like {
