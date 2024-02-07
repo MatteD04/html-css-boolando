@@ -9,6 +9,11 @@ img {
     max-width: 100%;
 }
 
+/*typography*/
+body{
+    font-family: sans-serif;
+}
+
 /*grid layout*/
 .container{
     max-width: 900px;
@@ -66,6 +71,7 @@ img {
 .main-nav ul {
     display: flex;
     list-style: none;
+    gap: 8px;
 }
 
 .main-nav li {
@@ -77,9 +83,17 @@ img {
     color: #ffffff;
 }
 
+header .logo{
+    flex-grow: 1;
+}
+
 .header-top .awesome {
     text-align: right;
     color: #ffffff;
+}
+
+.awesome{
+    justify-content: flex-end;
 }
 
 /*outfit*/
@@ -96,6 +110,10 @@ img {
 }
 .outfit img {
     width: 100%;
+}
+
+.outfit-image-hover{
+
 }
 .outfit .like {
     position: absolute;
@@ -139,7 +157,7 @@ img {
 }
 
 .outfit:hover .outfit-image-hover {
-    display: block;
+    display: inline-block;
 }
 .outfit:hover .outfit-image-default {
     display: none;
